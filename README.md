@@ -1,10 +1,6 @@
 # 🔐 PIR Motion Sensor — Security System Simulation
 ### Maincrafts Technology Internship | Task 2 | Embedded Systems & IoT
 
-![Arduino](https://img.shields.io/badge/Platform-Arduino%20UNO-blue?logo=arduino)
-![Simulator](https://img.shields.io/badge/Simulator-Tinkercad-orange)
-![Language](https://img.shields.io/badge/Language-C%2B%2B-brightgreen)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
@@ -99,25 +95,6 @@ PIR-Security-System/
 
 ---
 
-## 🚀 How to Run
-
-### On Tinkercad (Recommended)
-1. Go to [tinkercad.com](https://www.tinkercad.com) → Circuits → Create New
-2. Add: Arduino UNO, PIR Sensor, Red LED, Buzzer, 220Ω Resistors
-3. Wire as per the connection table above
-4. Click **Code** → switch to **Text** mode
-5. Paste code from `pir_security_system.ino`
-6. Click **Start Simulation**
-7. Open **Serial Monitor** to see real-time alerts
-8. Click the PIR sensor to simulate motion detection
-
-### On Real Hardware (Arduino UNO)
-1. Install [Arduino IDE](https://www.arduino.cc/en/software)
-2. Connect components on breadboard as per circuit diagram
-3. Open `pir_security_system.ino` in Arduino IDE
-4. Select board: **Arduino UNO** and correct COM port
-5. Click **Upload**
-6. Open Serial Monitor at **9600 baud**
 
 ---
 
@@ -155,23 +132,14 @@ All clear. No motion detected.
 
 ---
 
-## 🎓 Key Learnings
-
-- ✅ How PIR sensors detect infrared radiation from living beings
-- ✅ Using `digitalRead()` to read digital sensor signals
-- ✅ Implementing threshold-based triggering logic in C++
-- ✅ Combining multiple outputs (LED + Buzzer) for realistic alarm behavior
-- ✅ Serial Monitor for real-time debugging and monitoring
-- ✅ Tinkercad circuit simulation and prototyping workflow
-
 ---
 
 ## 👤 Author
 
-**[Your Name]**  
+**Arjun Dubey**  
 Embedded Systems & IoT Intern  
 Maincrafts Technology  
-📧 [your.email@example.com]
+📧 arjundubeyar@gmail.com
 
 ---
 
